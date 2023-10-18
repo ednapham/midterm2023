@@ -1,0 +1,163 @@
+body {
+  margin-top: 0; /*removes the gap above container div*/
+  background-color: transparent;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+  font-family: verdana;
+  color: green;
+}
+
+p /*this is the selector*/ {
+  font-family: verdana;
+  color: gray;
+}
+
+#container /*this is an id*/ {
+  background-color: transparent;
+  width: 1200px;
+  height: 1170px;
+  margin-right: auto; /*center the div in the browser*/
+  margin-left: auto; /*center the div in the browser*/
+}
+
+#banner /*this is an id*/ {
+  background-color: transparent;
+  width: 1200px;
+  height: 300px;
+  background-image: url("https://livewallpaperhd.com/wp-content/uploads/2017/06/Boston-Celtics-Logo-Wallpaper-Hd-768x480.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#navigation /*this is an id*/ {
+  background-color: red;
+  width: 1200px;
+  height: 70px;
+}
+
+#navigation a /*this is an id*/ {
+  background-color: lightgreen;
+  width: 300px;
+  display: block;
+  float: left;
+  height: 70px;
+  text-align: center;
+  line-height: 60px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color: green;
+  border-bottom: 4px solid green;
+}
+
+#navigation a:visited  /*this is an id*/ {
+  background-color: lightgreen;
+  width: 300px;
+  display: block;
+  float: left;
+  height: 70px;
+  text-align: center;
+  line-height: 60px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color: green;
+  border-bottom: 4px solid green;
+}
+
+#navigation a:hover /*this is an id*/ {
+  background-color: rgb(55, 175, 71);
+  width: 300px;
+  display: block;
+  float: left;
+  height: 70px;
+  color: white;
+  border-bottom: 4px solid rgb(146, 241, 146);
+}
+
+#content /*this is an id*/ {
+  background-color: white;
+  width: 890px;
+  height: 600px;
+  float: left;
+  padding-right: 10px;
+}
+
+#sidebarBOX /*this is an id*/ {
+  background-color: transparent;
+  width: 300px;
+  height: 600px;
+  float: left;
+}
+#sidebarBOXTop /*this is an id*/ {
+  background-color: rgba(134, 133, 133, 0.377);
+  width: 290px;
+  height: 190px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+#sidebarBOXMiddle /*this is an id*/ {
+  background-color: transparent;
+  width: 290px;
+  height: 190px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+#sidebarBOXBottom /*this is an id*/ {
+  background-color: rgba(134, 133, 133, 0.377);
+  width: 290px;
+  height: 190px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+#footer /*this is an id*/ {
+  background-color: green;
+  width: 1170px;
+  height: 180px;
+  float: left;
+  padding-top: 10px;
+  margin-top: 10px;
+  padding-left: 30px;
+}
+#footer a {
+  background-color: green;
+  display: block;
+  text-align: left;
+  line-height: 25px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color: white;
+  border-bottom: 4px solid green;
+}
+
+#footer a:visited {
+  background-color: green;
+  display: block;
+  text-align: left;
+  line-height: 25px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color: white;
+  border-bottom: 4px solid green;
+}
+
+#footer a:hover {
+  background-color: green;
+  display: block;
+  text-align: left;
+  line-height: 25px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color: white;
+  border-bottom: 4px solid green;
+  text-decoration: underline;
+}
